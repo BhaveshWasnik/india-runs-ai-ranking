@@ -70,3 +70,9 @@ python generate_submission.py
 * Embedding-Based Retrieval
 * Learning-to-Rank Models
 * LLM-Based Candidate Matching
+
+## Demo Sandbox
+
+Google Colab Demo:
+
+https://colab.research.google.com/drive/1_E_cYnj_FeNqOGTl1WbaMH6x-A3R-DI7?usp=sharing
