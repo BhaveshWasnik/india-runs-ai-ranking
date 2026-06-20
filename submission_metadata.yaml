@@ -1,0 +1,57 @@
+team_name: "Bhavesh Wasnik"
+
+primary_contact:
+name: "Bhavesh Wasnik"
+email: "wasnikb9@gmail.com"
+phone: "+91-7498454378"
+
+team_members:
+
+* name: "Bhavesh Wasnik"
+  email: "wasnikb9@gmail.com"
+  role: "Developer"
+
+github_repo: "https://github.com/BhaveshWasnik/india-runs-ai-ranking"
+
+sandbox_link: "https://colab.research.google.com/drive/1_E_cYnj_FeNqOGTl1WbaMH6x-A3R-DI7?usp=sharing"
+
+reproduce_command: "python generate_submission.py"
+
+compute:
+platform: "Windows Laptop"
+cpu_cores: 8
+ram_gb: 16
+python_version: "3.x"
+os: "Windows 11"
+uses_gpu_for_inference: false
+has_network_during_ranking: false
+pre_computation_required: false
+pre_computation_time_minutes: 0
+
+ai_tools_used:
+
+* "Anthropic Claude"
+* "ChatGPT"
+
+ai_usage_summary: |
+Used Anthropic Claude and ChatGPT during development for debugging,
+code review, documentation assistance, and idea validation.
+Final implementation, testing, ranking logic, repository setup,
+and submission preparation were completed manually.
+
+methodology_summary: |
+Built a candidate ranking system using profile information,
+skills, years of experience, career history, and recruiter
+engagement signals. Relevant AI/ML skills, retrieval and
+ranking experience, career-history keywords, GitHub activity,
+recruiter response rate, recruiter saves, notice period,
+and relocation preference were used to generate a ranking score.
+Candidates were sorted by score and the top 100 profiles were selected.
+A candidate-specific reasoning statement was generated for each recommendation.
+
+declarations:
+read_submission_spec: true
+code_is_original_work: true
+no_collusion: true
+honeypot_check_done: false
+reproduction_tested: true
